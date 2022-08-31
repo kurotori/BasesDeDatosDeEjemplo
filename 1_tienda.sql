@@ -1,3 +1,4 @@
+drop schema if exists tienda;
 create schema tienda;
 use tienda;
 
