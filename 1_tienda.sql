@@ -19,7 +19,7 @@ create table factura(
 create table producto(
     cod int not null unique primary key,
     nombre varchar(30) not null,
-    precio float(4,2) not null
+    precio float(6,2) not null
 );
 
 create table genera(
