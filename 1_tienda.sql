@@ -61,17 +61,3 @@ foreign key (producto_cod)
 references producto(cod)
 on update cascade
 on delete no action;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
